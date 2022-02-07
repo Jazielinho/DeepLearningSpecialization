@@ -95,7 +95,6 @@ retorna_modelo_secuencial <- function(){
     layer_dropout(rate = 0.3) %>%
     layer_dense(units = num_classes,
                 activation = 'softmax')
-
   return(modelo)
 }
 
