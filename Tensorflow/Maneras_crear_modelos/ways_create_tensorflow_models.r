@@ -72,7 +72,6 @@ entrena_modelo <- function(modelo){
 
 # SECUENCIAL
 retorna_modelo_secuencial <- function(){
-
   modelo <- keras_model_sequential() %>%
     layer_conv_2d(filters = 32,
                   kernel_size = c(3, 3),
