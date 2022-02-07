@@ -183,6 +183,7 @@ retorna_modelo_clase <- function(){
       x <- self$dense(x)
       x <- self$dropout(x)
       x <- self$salida(x)
+      x
     }
   }
   )
